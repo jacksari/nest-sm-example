@@ -64,8 +64,7 @@ export class AppController {
   @Get('/reserved-specimen')
   reservedSpecimen() {
     return this.sm.reservedSpecimen({
-      specimen_id: 'b0783efd-b7b5-11ed-8ba5-166fd1880ae7',
-      status_id: 3,
+      specimen_id: '4f9ea4b2-b87e-11ed-8ba5-166fd1880ae7',
     });
   }
 }
